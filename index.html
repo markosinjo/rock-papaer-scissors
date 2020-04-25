@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock-Paper-Scissors</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <script>
+            // randomly plays rock, papaer or scissors
+            function computerPlay () 
+            {
+                // get a random number between 1 and 3
+                let choice = Math.floor(Math.random() * 3 + 1);
+                
+                // displays the choice
+                if (choice == 1) 
+                {
+                    console.log("Rock");
+                } 
+                else if (choice == 2)
+                {
+                    console.log("Paper");
+                }
+                else 
+                {
+                    console.log("Scissors");
+                }
+            }
+        </script>
+    </body>
+</html>
